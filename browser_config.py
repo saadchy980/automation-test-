@@ -22,22 +22,58 @@ def login_testCase1_valid():
 
     # Step 2: Open URL
     driver.get("https://tutorialsninja.com/demo/index.php?route=account/register")
-    logging.info('Login page open Successful.')
+    register.info('register page open Successful.')
 
-    # Step 3: Enter Username
-    username_field = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.NAME, "username")))
-    username_field_enable_state = username_field.is_enabled()
+    # Step 3: Enter firstname
+    firstname_field = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, "input-firstname")))
+    firstname_field_enable_state = firstname_field.is_enabled()
 
-    # verify username field is enabled or nor
-    if username_field_enable_state:
-        username_field.clear()
-        username_field.send_keys("Admin")
-        logging.info('Type Username Successful.')
+    # verify firstname field is enabled or nor
+    if firstname_field_enable_state:
+        firstname_field.clear()
+        firstname_field.send_keys("saad")
+        register.info('Type firstname Successful.')
     else:
-        logging.error("Username field is not enabled.Test Failed.")
+        logging.error("firstname field is not enabled.Test Failed.")
 
-    # Step 4: Enter Password
-    password_field = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.NAME, "password")))
+    # Step 4: Enter Lastname
+    lastname_field = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, "input-lastname")))
+    lastname_field_enable_state = lastname_field.is_enabled()
+
+    # verify lastname field is enabled or nor
+    if lastnamee_field_enable_state:
+        lastname_field.clear()
+        lastname_field.send_keys("chy")
+        register.info('Type lastname Successful.')
+    else:
+        logging.error("lastname field is not enabled.Test Failed.")
+
+    # Step 5: Enter email
+    email_field = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, "input-email")))
+    email_field_enable_state = email_field.is_enabled()
+
+    # verify email field is enabled or nor
+    if email_field_enable_state:
+        email_field.clear()
+        email_field.send_keys("saadchy@test.com")
+        register.info('Type email Successful.')
+    else:
+        logging.error("email field is not enabled.Test Failed.")
+
+    # Step 6: Enter Phone
+    telephone_field = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, "input-telephone")))
+    telephone_field_enable_state = telephone_field.is_enabled()
+
+    # verify telephone field is enabled or nor
+    if telephone_field_enable_state:
+        telephone_field.clear()
+        telephone_field.send_keys("Admin")
+        register.info('Type telephone Successful.')
+    else:
+        logging.error("telephone field is not enabled.Test Failed.")
+
+    # Step 7: Enter Password
+    password_field = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, "input-password")))
     password_field_enable_state = password_field.is_enabled()
 
     # verify password field is enabled or not
@@ -48,9 +84,21 @@ def login_testCase1_valid():
     else:
         logging.error("Password field is not enabled.Test Failed")
 
-    # Step 5: Click Login button
+    # Step 8: Enter Password
+    confirm_password_field = WebDriverWait(driver, 10).until(EC.visibility_of_element_located((By.ID, "input-confirm")))
+    confirm_ password_field_enable_state = confirm_ password_field.is_enabled()
+
+    # verify password field is enabled or not
+    if confirm_password_field_enable_state:
+        confirm_password_field.clear()
+        confirm_password_field.send_keys("admin123")
+        logging.info('Type Password Successful.')
+    else:
+        logging.error("Password field is not enabled.Test Failed")
+
+    # Step 5: Click radio button
     login_button = WebDriverWait(driver, 10).until(
-        EC.visibility_of_element_located((By.CSS_SELECTOR, ".orangehrm-login-button")))
+        EC.visibility_of_element_located((By.CSS_SELECTOR, ".form-horizontal .radio-inline:nth-of-type(2) [type]")))
     login_button.click()
     logging.info('Login Button clicked Successful.')
     time.sleep(5)
