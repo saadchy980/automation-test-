@@ -1,0 +1,40 @@
+2024-01-09 14:58:10,299 - INFO: login_testCase1_valid Execution Start....
+2024-01-09 14:58:18,882 - INFO: Firefox Launch Successful.
+2024-01-09 15:00:43,073 - INFO: Login page open Successful.
+2024-01-09 15:00:48,858 - INFO: Type Username Successful.
+2024-01-09 15:00:48,904 - INFO: Type Password Successful.
+2024-01-09 15:00:58,733 - INFO: Login Button clicked Successful.
+2024-01-09 15:01:03,739 - INFO: Test Passed. Login successful.
+2024-01-09 15:01:04,536 - INFO: login_testCase1_valid execution completed..
+2024-01-09 18:27:32,275 - INFO: login_testCase1_valid Execution Start....
+2024-01-09 18:27:40,417 - INFO: Firefox Launch Successful.
+2024-01-09 18:29:38,992 - INFO: Login page open Successful.
+2024-01-09 18:29:42,314 - INFO: Type Username Successful.
+2024-01-09 18:29:42,367 - INFO: Type Password Successful.
+2024-01-09 18:29:51,545 - INFO: Login Button clicked Successful.
+2024-01-09 18:29:56,548 - INFO: Test Passed. Login successful.
+2024-01-09 18:29:57,488 - INFO: login_testCase1_valid execution completed..
+2024-01-09 18:30:23,232 - INFO: login_testCase1_valid Execution Start....
+2024-01-09 18:30:30,249 - INFO: Firefox Launch Successful.
+2024-01-09 18:32:06,067 - INFO: Login page open Successful.
+2024-01-09 18:32:12,753 - INFO: Type Username Successful.
+2024-01-09 18:32:12,820 - INFO: Type Password Successful.
+2024-01-09 18:32:21,323 - INFO: Login Button clicked Successful.
+2024-01-09 18:32:26,325 - INFO: Test Passed. Login successful.
+2024-01-09 18:32:27,261 - INFO: login_testCase1_valid execution completed..
+2024-01-09 19:19:30,448 - INFO: login_testCase1_valid Execution Start....
+2024-01-09 19:19:37,104 - INFO: Firefox Launch Successful.
+2024-01-09 19:19:49,860 - INFO: Login page open Successful.
+2024-01-09 19:19:51,296 - INFO: Type Username Successful.
+2024-01-09 19:19:51,389 - INFO: Type Password Successful.
+2024-01-09 19:19:54,902 - INFO: Login Button clicked Successful.
+2024-01-09 19:19:59,904 - INFO: Test Passed. Login successful.
+2024-01-09 19:20:01,771 - INFO: login_testCase1_valid execution completed..
+2024-01-09 19:20:29,204 - INFO: login_testCase1_valid Execution Start....
+2024-01-09 19:20:36,324 - INFO: Firefox Launch Successful.
+2024-01-09 19:20:51,287 - INFO: Login page open Successful.
+2024-01-09 19:20:52,754 - INFO: Type Username Successful.
+2024-01-09 19:20:52,891 - INFO: Type Password Successful.
+2024-01-09 19:20:57,848 - INFO: Login Button clicked Successful.
+2024-01-09 19:21:02,852 - INFO: Test Passed. Login successful.
+2024-01-09 19:21:04,070 - INFO: login_testCase1_valid execution completed..
